@@ -26,7 +26,7 @@
 
 - Sensitivity (True Positive(TPR), Recall) : The rate of positive in prediction in terms of positive in actual $\Rightarrow \frac{TP}{TP+FN}$
 - Specificity (True Negative(TNR)) :  The rate of negative in prediction in terms of negative in actual.
-- False positive rate(FPR) = 1 - specificity
+- False positive rate(FPR) = 1 - specificity $\Rightarrow \frac{FP}{TP+TN}$
 - Accuracy : The rate of well-classified data in total data sets $\Rightarrow \frac{TP+TN}{TP+FP+TN+FN}$
 - Precision : The rate of positive in actual in datas predicted to positive $\Rightarrow \frac{TP}{TP+FP}$
 
