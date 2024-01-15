@@ -21,7 +21,15 @@
 
 ### ROC-Curve
 
+<p align="center">
+  <img src= "https://github.com/2020147544/Advances_in_Financial_Engineering/assets/69757668/291303d3-8edb-4f9f-ae9f-395ff21a4910">
+</p>
 
+- Sensitivity (True Positive(TPR), Recall) : The rate of positive in prediction in terms of positive in actual $\Rightarrow \frac{TP}{TP+FN}$
+- Specificity (True Negative(TNR)) :  The rate of negative in prediction in terms of negative in actual.
+- False positive rate(FPR) = 1 - specificity
+- Accuracy : The rate of well-classified data in total data sets $\Rightarrow \frac{TP+TN}{TP+FP+TN+FN}$
+- Precision : The rate of positive in actual in datas predicted to positive $\Rightarrow \frac{TP}{TP+FP}$
 
 ### random forest:
 마지막으로 앞서 얻은 meta label과 OHLC를 이용하여 meta-label을 예측하는 classification task을 진행하였다. false positive 비율을 줄이는 것을 목적으로 진행하였으며 결과 roc curve는 다음과 같다.
