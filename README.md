@@ -19,10 +19,10 @@
 ### meta-labeling method:
 기본 전략에서 생성한 진입/청산 시그널과 triple barrier를 통해 얻은 구간을 이용하여 기본전략의 시그널이 실제로 수익률을 가져다줄 수 있는 시그널인지 이차 검증하는 방식이다. 따라서 실제 수익률을 계산했을 때 음수가 나오면 진입하면 안되는 가짜 시그널이라고 보아 0, 양수가 나오면 진입을 했는데 진짜 수익을 얻는 경우이므로 진짜 시그널이라고 판단하여 1이라는 label을 갖도록 하였다.
 
-### ROC-Curve
+### ROC-Curve:
 
 <p align="center">
-  <img src= "https://github.com/2020147544/Advances_in_Financial_Engineering/assets/69757668/291303d3-8edb-4f9f-ae9f-395ff21a4910">
+  <img src= "https://github.com/2020147544/Advances_in_Financial_Engineering/assets/69757668/291303d3-8edb-4f9f-ae9f-395ff21a4910" width="600/>
 </p>
 
 - Sensitivity (True Positive(TPR), Recall) : The rate of positive in prediction in terms of positive in actual $\Rightarrow \frac{TP}{TP+FN}$
