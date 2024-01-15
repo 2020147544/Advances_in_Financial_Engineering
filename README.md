@@ -19,6 +19,10 @@
 ### meta-labeling method:
 기본 전략에서 생성한 진입/청산 시그널과 triple barrier를 통해 얻은 구간을 이용하여 기본전략의 시그널이 실제로 수익률을 가져다줄 수 있는 시그널인지 이차 검증하는 방식이다. 따라서 실제 수익률을 계산했을 때 음수가 나오면 진입하면 안되는 가짜 시그널이라고 보아 0, 양수가 나오면 진입을 했는데 진짜 수익을 얻는 경우이므로 진짜 시그널이라고 판단하여 1이라는 label을 갖도록 하였다.
 
+### ROC-Curve
+
+
+
 ### random forest:
 마지막으로 앞서 얻은 meta label과 OHLC를 이용하여 meta-label을 예측하는 classification task을 진행하였다. false positive 비율을 줄이는 것을 목적으로 진행하였으며 결과 roc curve는 다음과 같다.
 ![image](https://github.com/2020147544/Advances_in_Financial_Engineering/assets/80660498/4c700f6b-fe22-42e2-9679-2195a51642a9)
