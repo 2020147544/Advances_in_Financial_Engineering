@@ -22,7 +22,7 @@
 ### ROC-Curve:
 
 <p align="center">
-  <img src= "https://github.com/2020147544/Advances_in_Financial_Engineering/assets/69757668/291303d3-8edb-4f9f-ae9f-395ff21a4910" width="600/>
+  <img src= "https://github.com/2020147544/Advances_in_Financial_Engineering/assets/69757668/291303d3-8edb-4f9f-ae9f-395ff21a4910" width="600>
 </p>
 
 - Sensitivity (True Positive(TPR), Recall) : The rate of positive in prediction in terms of positive in actual $\Rightarrow \frac{TP}{TP+FN}$
