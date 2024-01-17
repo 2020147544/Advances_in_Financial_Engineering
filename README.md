@@ -31,4 +31,4 @@
 마지막으로 앞서 얻은 meta label과 OHLC를 이용하여 meta-label을 예측하는 classification task을 진행하였다. false positive 비율을 줄이는 것을 목적으로 진행하였으며 결과 roc curve는 다음과 같다.
 ![image](https://github.com/2020147544/Advances_in_Financial_Engineering/assets/80660498/4c700f6b-fe22-42e2-9679-2195a51642a9)
 
-OHLC외에 volume, macd 등의 추가적인 feature을 통해 성능 향상을 기대해볼 수 있으며, 4월 이후의 데이터를 이용하여 추가 검증 진행 예정.
+
